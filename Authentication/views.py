@@ -3,4 +3,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("I am Pantha")
+    return render(request,'Authentication/SignUp.html')

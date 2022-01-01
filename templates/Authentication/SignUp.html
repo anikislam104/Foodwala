@@ -1,0 +1,30 @@
+{% load static %}
+<head>
+    <title>
+        Sign Up
+    </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'SignUp.css' %}">
+</head>
+<body>
+    <h1>
+       FOODWALA
+    </h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <div>
+    <input type="text" name="fname" id="fname" placeholder="First Name"><br><br>
+    <input type="text" name="lname" id="lname" placeholder="Last Name"><br><br>
+    <input type="email" name="email" id="email" placeholder="Email"><br><br>
+    <input type="password" name="pwd" id="pwd" placeholder="Password"><br><br>
+    <input type="password" name="cpwd" id="cpwd" placeholder="Confirm Password"><br><br>
+    <select name="Usertype" id="Usertype">
+        <option value="none" selected disabled hidden>Usertype</option>
+        <option value="Seller">Seller</option>
+        <option value="Buyer">Buyer</option>
+    </select><br><br>
+    <button type="submit">Submit</button>
+        </div>
+</form>
+
+</body>

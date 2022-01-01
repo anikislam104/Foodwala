@@ -1,0 +1,39 @@
+body{
+    border:21px solid ;
+    border-color: lightgreen;
+    border-radius: 25px 20px;
+}
+h1{
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Berlin Sans FB", sans-serif;
+    color: forestgreen;
+}
+
+div{
+    text-align: center;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+select{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: darkgreen;
+    font-size: large;
+    font-family: "Berlin Sans FB", sans-serif;
+    color: lightgreen;
+}
+option{
+    font-family: "Berlin Sans FB", sans-serif;
+    font-size: large;
+}
