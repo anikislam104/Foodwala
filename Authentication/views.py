@@ -4,3 +4,8 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request,'Authentication/SignUp.html')
+
+def signUpSubmit(request):
+    fname=request.POST['fname']
+    print(fname)
+    return HttpResponse(fname)
